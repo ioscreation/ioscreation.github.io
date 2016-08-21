@@ -1,8 +1,8 @@
-Origin: My Repo
-Label: My Repo
+Origin: iOSCreation Repo
+Label: iOSCreation Private Repo
 Suite: stable
 Version: 1.0
-Codename: makingarepo
+Codename: ioscreationrepo
 Architectures: iphoneos-arm
 Components: main
 Description: My development repo.
