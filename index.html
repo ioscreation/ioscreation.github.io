@@ -1,39 +1,39 @@
-<!DOCTYPE html>
-<html >
-  <head>
-    <meta charset="UTF-8">
-    <title>iOSCreation Cydia Repo</title>
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
 
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>TeamCreation</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="assets/css/images/cydia.ico">
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+					<header id="header">
+						<h1>TeamCreation LLC.</h1>
+						<p>iOS Development &nbsp;&bull;&nbsp; iOS Design &nbsp;&bull;&nbsp; iOS Tweak Development</p>
+						<nav>
+							<ul>
+								<li><a href="https://twitter.com/TeamCreation15" title="Austin's Twitter" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://twitter.com/ChayseImmel" title="Chayse's Twitter" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							</ul>
+						</nav>
+					</header>
 
+					<footer id="footer">
+						<a href="http://teamcreation.github.io/austin/index.html" title="Austin's Page">Austin</a> &nbsp;&bull;&nbsp; <a href="http://teamcreation.github.io/chayse/index.html" title="Chayse's Page">Chayse</a>
+					</footer>
 
-        <link rel="stylesheet" href="css/style.css">
-
-
-
-
-  </head>
-
-  <body>
-
-    <body class="depiction">
-  <header>
-    <h1>iOSCreation Repo!</h1>
-  </header>
-  <main id="content" role="main">
-    <ul>
-      <li>
-      <a href="cydia://url/https://cydia.saurik.com/api/share#?source=https%3A%2F%2Fioscreation.github.io">Add to Cydia</a>
-      </li>
-    </ul>
-    <p class="footer">Report issues to /u/ioscreation.</p>
-  </main>
-</body>
-
-        <script src="js/index.js"></script>
-
-
-
-
-  </body>
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
 </html>
